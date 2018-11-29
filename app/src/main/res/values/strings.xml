@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">FinalAplication</string>
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+
+    <string name="app_nome">Calculadora de Média</string>
+    <string name="calcularmedia">Calcular Média</string>
+    <string name="nota1">1º Nota:</string>
+    <string name="nota2">2º Nota:</string>
+    <string name="nota3">3º Nota:</string>
+    <string name="nota4">4º Nota:</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
+    <string name="resul">""</string>
+    <string name="nota_1">""</string>
+    <string name="nota_2">""</string>
+    <string name="nota_3">""</string>
+    <string name="nota_4">""</string>
+
+    <string name="app_nam">CALCULADORA</string>
+    <string name="btn_7">7</string>
+    <string name="btn_8">8</string>
+    <string name="btn_9">9</string>
+    <string name="btn_6">6</string>
+    <string name="btn_5">5</string>
+    <string name="btn_4">4</string>
+    <string name="btn_3">3</string>
+    <string name="btn_2">2</string>
+    <string name="btn_1">1</string>
+    <string name="btn_0">0</string>
+    <string name="btnSoma">+</string>
+    <string name="btnSubtracao">-</string>
+    <string name="btnDivisao">/</string>
+    <string name="btnMultiplicacao">x</string>
+    <string name="btnClear">C</string>
+    <string name="btnvirgula">,</string>
+    <string name="btnigual"> = </string>
+
+    <string name="app_nm">PERFIL</string>
+    <string name="nome">Nome</string>
+    <string name="senha">Senha</string>
+    <string name="login">LOGIN</string>
+    <string name="cadastro">CADASTRO</string>
+
+    <string name="sobrenome">Sobrenome</string>
+    <string name="formacao">Formação</string>
+    <string name="telefone">Telefone</string>
+    <string name="dtnasc">Data de Nascimento</string>
+    <string name="idade">Idade</string>
+    <string name="salvar">SALVAR</string>
+
+    <string name="apagar">X</string>
+    <string name="btn">*</string>
+    <string name="btnn">#</string>
+    <string name="btn_ligar">Ligar</string>
+    <string name="display">""</string>
+
+
+
+
+</resources>

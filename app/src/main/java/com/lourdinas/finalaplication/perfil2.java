@@ -20,13 +20,7 @@ public class perfil2 extends AppCompatActivity {
 
         Button bt_salvar = (Button) findViewById(R.id.bt_salvar);
 
-        TextView tx_nome = findViewById(R.id.tx_nome);
-
-        Intent intentRecebido = getIntent();
-        String nome = intentRecebido.getStringExtra("nome");
-
-        tx_nome.setText(nome);
-
+        final EditText nome = findViewById(R.id.tx_nome);
         final EditText sobrenome = findViewById(R.id.edit_sobrenome);
         final EditText formacao = findViewById(R.id.edit_formacao);
         final EditText telefone = findViewById(R.id.edit_telefone);
@@ -37,6 +31,7 @@ public class perfil2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(perfil2.this, MainActivity.class);
+                intent.putExtra("nome", nome.getText().toString());
                 intent.putExtra("sobrenome", sobrenome.getText().toString());
                 intent.putExtra("formacao" , formacao.getText().toString());
                 intent.putExtra("telefone" , telefone.getText().toString());
